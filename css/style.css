@@ -1,0 +1,240 @@
+
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#fff;
+    --secondary-color:#000000;
+}
+html {
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/bt-interior\ \(1260x840\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 800px;
+}
+
+nav{
+    display: flex;
+    margin: 20px 50px;
+    flex: 5;
+}
+.nav-logo{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-right:50px;
+    
+}
+
+.nav-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    display: flex;
+    border-bottom: 2px solid var(--primary-color);
+}
+nav .menu-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -40px;
+    justify-content:space-between;
+    list-style: none;
+
+    
+}
+.menu-item{
+    font-size: 18px;
+    color: var(--primary-color);
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-info i{
+    padding-left: 80px;
+    color: #fff;
+    margin-right: 20px;
+}
+.contact-detail{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-section{
+    margin:20px 50px;
+}
+.top-one{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.hero-headding{
+    padding: 80px 0px;
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    float: left;    
+}
+.top-card{
+    width: 280px;
+    padding: 20px;
+    margin-top: -10vh;
+    background-color: hsla(0, 0%, 100%, 0.315);
+}
+.icon{
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-radius:50px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.card p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight:500 ;
+}
+
+.v-line{
+    position: absolute;
+    margin-top: 20px;
+    margin-left:190px;
+    float: left;
+    height: 60px;
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+.dot{
+    height: 100;
+    width: 100;
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+    background-color: #fff;
+}
+.dot-top{
+    content: "";
+    position: absolute;
+    margin-top: 70px;
+    margin-left:181px;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+
+
+.bottom-one{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    align-items: center;
+    justify-content: center;
+   
+}
+.learn-more-btn{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    font-size: 1.5rem;
+    border: 2px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: var(--primary-color);
+    float: left;
+    border: 2px solid var(--primary-color);
+    
+}
+.bottom-card{
+    width: 280px;
+    padding: 20px;
+    background-color: hsla(0, 0%, 100%, 0.315);
+}
+.icon{
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius:50px;
+    margin-left: -1px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+
+.h-line{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:260px;
+    float: left;
+    width: 60px;
+    color: #fff;
+    border-top: 2px solid #fff;
+}
+.dot{
+    height: 100;
+    width: 100;
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+    background-color: #fff;
+}
+.dot-bottom{
+    content: "";
+    position: absolute;
+    margin-top: 30px;
+    margin-left:315px;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+
+.bottom-card .card .icon{
+    color: #000000;
+}
+
+/* .right-card{
+ float: right;
+ margin-right: 100px;
+}
+.card{
+    padding: 50px;
+    border: 1px solid red;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.icon{
+    padding: 0px 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+} */
+
